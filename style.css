@@ -1,26 +1,26 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Quicksand", sans-serif;
-    font-size: 0.9rem;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Quicksand", sans-serif;
+  font-size: 0.9rem;
 }
 
 /* Layout APP */
 .container-pai {
-    width: 280px; 
-    min-height: auto; 
+  width: 280px;
+  min-height: auto;
 
-    /* Flexbox */
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    background-color: #f3f3f3; 
-    padding: 20px;
-    border-radius: 12px;
-    box-shadow: 0 8 32px rgba(0, 0, 0, 0.15); 
-    margin: 15px auto;
+  /* Flexbox */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 8 32px rgba(0, 0, 0, 0.15);
+  margin: 15px auto;
 }
 
 /* cabecalho */
@@ -52,7 +52,7 @@
   border-radius: 8px;
   background-color: #f3f3f3;
   font-size: 0.85rem;
-  color: #00000E;
+  color: #00000e;
 }
 
 /* Alinhamento do placeholder */
@@ -60,10 +60,9 @@
   color: #666;
 }
 
-
 /* Container dos botões */
 
- .container-button {
+.container-button {
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -98,12 +97,11 @@
   padding: 10px 12px;
   border-radius: 8px;
   font-size: 0.8rem;
-  background-color: #D9D9D9;
-  color: #00000E;
+  background-color: #d9d9d9;
+  color: #00000e;
   border: 1px solid #4c4c4d;
   transition: all 0.3s ease;
 }
-
 
 .btn:hover {
   background-color: #c7c6c6;
@@ -121,7 +119,7 @@
   font-size: 0.85rem;
   text-align: left;
   resize: none;
-  color: #00000E;
+  color: #00000e;
 }
 
 /* Rodapé */
@@ -129,11 +127,12 @@ footer {
   margin-top: 10px;
   font-size: 0.7rem;
   color: #4c4c4d;
+  color: rgba(255, 255, 255, 0.8);
   text-align: center;
 }
 
 footer a {
-  color: #3c98c1;
+  color: rgb(226, 167, 218);
   text-decoration: none;
 }
 
